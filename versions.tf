@@ -8,12 +8,8 @@ terraform {
       source  = "hashicorp/local"
       version = "~> 2.2"
     }
-    gitlab = {
-      source  = "gitlabhq/gitlab"
-      version = "~> 3.13"
-    }
     tls = {
-      source ="hashicorp/tls"
+      source  = "hashicorp/tls"
       version = "~> 3.3"
     }
   }
