@@ -18,8 +18,3 @@ variable "ssh_authorized_keys" {
   default     = []
   description = "SSH Authorized Keys"
 }
-
-variable "gitlab_username" {
-  type        = string
-  description = "Gitlab Username"
-}
